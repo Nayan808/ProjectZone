@@ -1,0 +1,28 @@
+main {
+    padding: 2em;
+}
+.about-section{
+    height: 55vh;
+    align-items: center;
+    text-align: center;
+}
+.about-section{
+    margin-bottom: 2em;
+    margin-top: 5vh;
+    background-color: #d4d2d295;
+    border-radius: 1vh;
+}
+
+.about-section h2 {
+    color:red;
+font-weight: bold;
+font-size: 6vh;
+}
+
+.about-section p {
+    color: #000000;
+    font-size: 3vh;
+
+}
+
+
