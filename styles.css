@@ -318,8 +318,11 @@ footer {
     }
 
     section#Hoarding {
-        margin: 10px;
+        /* margin: 10px;*/
+        margin-left: 10px; 
         height: auto;
+        width: auto;
+        margin-right: 10px;
     }
 
     .home_image1_data {
