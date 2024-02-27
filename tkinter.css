@@ -1,0 +1,113 @@
+.head{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.head h1{
+    color: black;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.head h1 a{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .card-content {
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .card-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .coupon {
+    background-color: #f3f3f3;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .coupon p {
+    margin: 5px 0;
+  }
+
+ 
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #ff0000;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+    /* margin-left: 0px; */
+    width: 90%;
+    border: 2px solid red;
+    font-weight: bold;
+  }
+
+  .btn:hover {
+    background-color: #b30000;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+
+  @media screen and (max-width: 768px) {
+    .card {
+      width: calc(50% - 20px);
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .card {
+      width: calc(100% - 20px);
+    }
+  }
